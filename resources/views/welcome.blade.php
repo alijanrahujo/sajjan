@@ -13,7 +13,7 @@
     {{-- <a href="{{route('pages.about')}}">About us</a> --}}
     <a href="{{route('about','Ali Jan')}}">About us</a>
 
-    <a href="{{route('task.index')}}">Show Task</a>
+    <a href="{{route('task.index')}}">Task</a>
 
 </body>
 </html>

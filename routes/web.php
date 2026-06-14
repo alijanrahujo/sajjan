@@ -38,3 +38,4 @@ Route::post('contact',[PagesController::class,'contact'])->name('contact');
 
 
 Route::resource('task',TaskController::class);
+
