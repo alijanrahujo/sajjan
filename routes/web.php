@@ -39,3 +39,9 @@ Route::post('contact',[PagesController::class,'contact'])->name('contact');
 
 Route::resource('task',TaskController::class);
 
+
+Route::get('newhome',function(){
+    return view('pages.home');
+})->name('home');
+
+Route::view('about','pages.about')->name('about');
